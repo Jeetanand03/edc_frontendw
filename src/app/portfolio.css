@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .theme-light {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .theme-dark {
+    background-color: #272525;
+    color: #f0f0f0;
+  }
+  
+  .my-header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: yellow;
+  }
+  
+  .my-header nav ul {
+    list-style-type: none;
+    display: flex;
+
+    /* background-color: rgb(226, 232, 232); */
+  }
+  
+  .my-header nav ul li {
+    margin-right: 1rem;
+    
+    /* background-color: rgb(1, 11, 11); */
+  }
+  
+  .theme-toggle {
+    padding: 0.5rem 1rem;
+    background-color: #ddd;
+    color: #151414f0;
+    border:none;
+    cursor: pointer;
+  }
+  
+  .main {
+    padding: 1rem;
+  }
+  
+  .section {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    h1{
+        /* background: url(https://upload.wikimedia.org/wikipedia/en/f/fd/Indian_Institute_of_Technology_Delhi_Logo.svg); */
+        /* background-size: 100px; */
+        background-size: cover;
+        /* background-position: center; */
+        /* background-color: #333333; */
+        /* color:white; */
+    }
+    h2{
+        font-size:30px;
+        text-align: center;
+        margin-top: 10px;
+        background: yellowgreen;
+
+        
+    }
+    p{
+        font-style: italic ;
+        /* background: rgb(97, 104, 73); */
+        font-size: large;
+        /* background: url(https://upload.wikimedia.org/wikipedia/en/f/fd/Indian_Institute_of_Technology_Delhi_Logo.svg); */
+        background-size: cover;
+        background-size: 1000px;
+        color:rgb(231, 232, 235);
+        color:rgb(14, 14, 14);
+        /* background-color: #333333; */
+        
+        background-position-y:-1%;
+        
+        background-position-x: 100%;
+        background-size: inherit;
+        background-repeat: no-repeat;
+        
+    }
+    h1{
+        text-align: center;
+        font-size:39px;
+        font-weight: 600;
+        font-style: normal;
+        margin-bottom: 10px;
+    }
+  }
+  
+  .footer {
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    background-color: rgb(36, 36, 36);
+  }
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    overflow: hidden;
+    p{
+        font-size: normal;
+    }
+    .proj1 {
+        position: relative;
+        width: 100%;
+        /* left: 1000px; */
+    }
+    .proj2 {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        /* left: 1000px; */
+    }
+    .proj3 {
+        position: relative;
+        width: 800px;
+        height:450px;
+        /* top: 100px; */
+        /* bottom: 10px; */
+
+        /* left: 1000px; */
+    }
+  }
+  
+  .slide {
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .slide img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .project-info {
+    background-color: rgba(0, 0, 0, 0.5); /* Example background color */
+    color: #fff; /* Example text color */
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .project-info h3 {
+    margin-bottom: 5px;
+  }
+  
+  .project-info p {
+    margin: 0;
+  }
+  
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #ffffff; /* Example background color */
+    border:rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: aqua;
+    font-size: 14px;
+    z-index: 10;
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+    transition: background-color 0.3s ease; 
+  }
+  
+  .prev {
+    left: 10px;
+    /* background-color: #ddd; */
+  }
+  
+  .next {
+    right: 10px;
+    /* background-color: #f0f0f0; */
+  }
+  
